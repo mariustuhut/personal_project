@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/MariusTuhut/IdeaProjects/Maven">
+
+        <groups>
+            <run>
+                <include name="AllClassTests"></include>
+            </run>
+
+        </groups>
+
+        <classes>
+<!--            <class name="Priority.TestNGMultiBrowserDemo">-->
+<!--                <methods>-->
+<!--                    <include name="test"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="Priority.TestNGPriorityDemo">-->
+<!--                <methods>-->
+<!--                    <include name="one"/>-->
+<!--                    <include name="two"/>-->
+<!--                    <include name="three"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+            <class name="grouping.TestNGGroupsDemo"></class>
+<!--            <class name="listeners.TestNGListenerDemo">-->
+<!--                <methods>-->
+<!--                    <include name="test1"/>-->
+<!--                    <include name="test2"/>-->
+<!--                    <include name="test3"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="test.ExtentReportsDemoWithTestNG">-->
+<!--                <methods>-->
+<!--                    <include name="test1"/>-->
+<!--                    <include name="test2"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="test.GoogleSearchPageTest">-->
+<!--                <methods>-->
+<!--                    <include name="googleSearchTest"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="test.TestNGDemo">-->
+<!--                <methods>-->
+<!--                    <include name="googleSearchTest"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--            <class name="test.TestNGDemo2">-->
+<!--                <methods>-->
+<!--                    <include name="googleSearchTest2"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+        </classes>
+    </test>
+</suite>
